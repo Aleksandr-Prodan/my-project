@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" crossorigin href="/my-project/assets/index-CHirIbW8.css">
+    <link rel="stylesheet" crossorigin href="/my-project/assets/index-CPTTTr1h.css">
   </head>
   <body>
     <header>
@@ -118,8 +118,112 @@
   </div>
 </section>
 
-      <section class="rent-a-yacht">
-  <div class="container"></div>
+      <section class="rent-a-yacht section" id="rent">
+  <div class="container rent-a-yacht-container">
+    <div class="rent-a-yacht-content">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-form-box">
+          <label for="user-name"></label>
+          <input
+            class="rent-input input-style"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Full Name"
+            pattern="[a-zA-Z]+"
+            title="Oleh"
+            minlength="2"
+            required
+          />
+        </div>
+
+        <div class="rent-form-box">
+          <label for="user-email"></label>
+          <input
+            class="rent-input input-style"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </div>
+
+        <div class="rent-form-box">
+          <label for="user-number"></label>
+          <input
+            class="rent-input input-style"
+            type="tel"
+            id="user-number"
+            name="user-number"
+            placeholder="Phone number"
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            title="xxx-xxx-xx-xx"
+            required
+          />
+        </div>
+
+        <div class="rent-form-box-textarea">
+          <label for="user-comment"></label>
+          <textarea
+            class="rent-textarea input-style"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+
+        <button class="rent-sbm-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div>
+      <picture>
+        <source
+          srcset="/my-project/assets/rent-desc-1440-qpsvq1nu.webp 1x, /my-project/assets/rent-desc-1440@2x-CzLgfxvs.webp 2x"
+          media="(min-width:1440px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/my-project/assets/rent-desc-1440-BTBuWMZo.jpg 1x, /my-project/assets/rent-desc-1440@2x-Dhj2Vd1v.jpg 2x"
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="/my-project/assets/rent-desc-8b0iRgDR.webp 1x, /my-project/assets/rent-desc@2x-D8k4o8f5.webp 2x"
+          media="(min-width:1280px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/my-project/assets/rent-desc-CZ28NEBs.jpg 1x, /my-project/assets/rent-desc@2x-DMg-_PL5.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/my-project/assets/rent-tablet-D1RbIbFq.webp 1x, /my-project/assets/rent-tablet@2x-RE3LmDx_.webp 2x"
+          media="(min-width:768px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/my-project/assets/rent-tablet-B47xuWMy.jpg 1x, /my-project/assets/rent-tablet@2x-CnIuM8aD.jpg 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/my-project/assets/rent-mob-Hpi1uHvk.webp 1x, /my-project/assets/rent-mob@2x-CR41HivH.webp 2x"
+          media="(max-width:767px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/my-project/assets/rent-mob-XZFxDpS4.jpg 1x, /my-project/assets/rent-mob@2x-0G4tcgX2.jpg 2x"
+          media="(max-width:767px)"
+        />
+        <img
+          class="rent-img"
+          src="/my-project/assets/rent-mob-XZFxDpS4.jpg"
+          alt="Yacht"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
 
       <section class="reviews">
